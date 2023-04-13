@@ -2,8 +2,10 @@ Action()
 {
 	lr_start_transaction("TRANSx2");
 
-	return 0;
+	lr_message("this zzis still silly")
 
 	lr_end_transaction("TRANSx2", LR_AUTO);
+	
+		return 0;
 
 }
